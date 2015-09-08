@@ -1,3 +1,8 @@
+Updates to PA1:
+I went ahead and added the point z across the program which changed it from finding area of a two-dimensional triangle to a three-dimensional triangle. After that I fought with the computeArea function until I finally understood it and had it working. I simply thought it was awesome getting to use Heron's formula since it was completely new to me. The program now compiles flawlessly and is ready to use. Simply input the X, Y, and Z coordinates of each point of the triangle and the program will spit out the area then exit.
+
+-John-Marc Cloer
+
 ## CSCI 2312: Programming Assignment 1
 
 _working with objects_
