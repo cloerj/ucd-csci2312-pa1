@@ -12,7 +12,7 @@
 using namespace std;
 
 
-double computeArea(Point &a, Point &b, Point &c) {          //This guy uses Heron's formula to calculate the area.
+double computeArea(Point &a, Point &b, Point &c) {          //This equation uses Heron's formula to calculate the area.
 
     double aToB, aToC, bToC, semiperimeter, triarea;
 
