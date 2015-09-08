@@ -12,7 +12,7 @@
 using namespace std;
 
 
-double computeArea(Point &a, Point &b, Point &c) {          //This equation uses Heron's formula to calculate the area.
+double computeArea(Point &a, Point &b, Point &c) {          //This guy uses Heron's formula to calculate the area.
 
     double aToB, aToC, bToC, semiperimeter, triarea;
 
@@ -67,7 +67,7 @@ int main(void) {
     cin >> z;
     c.setX(z);
 
-    cout << "The area of the three-dimensional triangle is " << computeArea(a, b, c) << setprecision(2) << "." << endl; // Displays the area of the triangle
+    cout << "The area of the three-dimensional triangle is " << setprecision(2) << computeArea(a, b, c) << "." << endl; // Displays the area of the triangle
 
     return 0;
 }
